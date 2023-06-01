@@ -18,7 +18,7 @@ import EditVacant from './components/pages/Vacant/EditVacant';
 import VacantDetails from './components/pages/Vacant/VacantDetails';
 import MyApplications from './components/pages/Vacant/MyApplications';
 import CaroselNoticias from './components/pages/Carosel/CaroselNoticias';
-
+import Blog from './components/pages/BlogNoticias/Blog';
 
 /* contexts */
 import { UserProvider } from './context/UserContext';
@@ -59,6 +59,9 @@ function App() {
             </Route>
             <Route path="/vacant/:id">
               <VacantDetails />
+            </Route>
+            <Route path="/BlogNoticias/blog.jsx">
+              <Blog/>
             </Route>
             <Route path="/">
               <Home />

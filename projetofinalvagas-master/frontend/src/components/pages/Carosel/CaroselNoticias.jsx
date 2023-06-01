@@ -4,7 +4,7 @@ import img01 from './imgcard/01.jpg';
 import img02 from './imgcard/02.jpg';
 import img03 from './imgcard/03.jpg';
 import img04 from './imgcard/04.jpg';
-import img05 from './imgcard/05.jpg';
+import backg from './imgcard/backg.jpeg';
 
 
 function CaroselNoticias() {
@@ -114,7 +114,7 @@ function CaroselNoticias() {
         <label htmlFor="s5" id="slide5">
           <div className="card">
             <div className="image">
-            <img src={img05} alt="" />
+            <img src={backg} alt="" />
               <div className="dots">
                 <div className="dot1"></div>
                 <div className="dot2"></div>
@@ -126,7 +126,7 @@ function CaroselNoticias() {
               <span className="lorem">Descubra histórias inspiradoras de migrantes e as vantagens de contratar talentos globais. 
                                       Acesse nosso blog e amplie sua visão sobre diversidade e inclusão no ambiente de trabalho.</span>
             </div>
-            <a href="https://www.youtube.com/c/TotiDiversidade" className="btn-contact">olhar mais</a>
+            <a href="/BlogNoticias/Blog.jsx"  className="btn-contact">olhar mais</a>
             <div className="socials">
               <i className="fa-regular fa-heart"></i>
               <i className="fa-regular fa-bookmark"></i>
