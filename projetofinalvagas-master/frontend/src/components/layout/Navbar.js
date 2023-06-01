@@ -22,7 +22,7 @@ function Navbar() {
       
       <ul>
 
-        <Link to="/Carosel/Carosel">Noticias</Link>
+        <Link to="/Carosel/CaroselNoticias.jsx">Noticias</Link>
         <li>
           <Link to="/">Candidatar</Link>
         </li>

@@ -2,8 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 1em 1.5em;
-  background-color: rgba(118, 80, 99, 0.5);
-  
+  background-color: rgba(50, 52, 68, 0.5);
   color: #ffffff;
 }
 
@@ -13,7 +12,7 @@
 }
 
 .navbar_logo img {
-  width: 40px;
+  width: 60px;
   margin-right: .8em;
 }
 

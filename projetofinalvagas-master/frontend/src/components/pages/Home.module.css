@@ -3,8 +3,20 @@
 }
 
 .vacant_home_header h1 {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.8em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
+
+.vacant_home_header p {
+  margin-bottom: 0.8em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
 
 .vacant_container {
   display: flex;
@@ -41,7 +53,7 @@
 
 .vacant_card a {
   border-radius: 8px;
-  color: #16479d;
+  color: #1a65e7;
   background-color: #ffd400;
   border: none;
   min-width: 100px;
@@ -60,6 +72,6 @@
 
 .application_text {
   font-weight: bold;
-  color: #25b456;
+  color: #049637;
   padding: 15px;
 }

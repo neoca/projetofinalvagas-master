@@ -15,8 +15,8 @@ function Home() {
   return (
     <section>
       <div className={styles.vacant_home_header}>
-        <h1>aplique para a vaga</h1>
-        <p>Veja os detalhes de cada uma e conheça o reclutador delas</p>
+        <h1>Aplique para a vaga</h1>
+        <p>Veja os detalhes de cada vaga e alem disso conheça o reclutador</p>
       </div>
       
   

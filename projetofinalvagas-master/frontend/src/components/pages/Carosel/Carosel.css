@@ -1,27 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;600;700&display=swap');
 
-body {
-
-    display: flexbox;
-    align-items: center;
+#Carosel-root{
+    display: flex;
     justify-content: center;
-    background-image:url(/img/backg.jpeg);
-    background-repeat: no-repeat;
-    overflow-x: hidden;
-    height: 100vh;
-    font-family: 'Urbanist', sans-serif;
-    background-size: cover;
+    align-items: center;
+    
+    
 }
 
-a{
-
-    text-decoration: none;
-}
-
-input {
-
-    display: none;
-}
 
 .container {
 
@@ -232,28 +218,3 @@ input {
     margin: auto;   
 }
 h1{ font-size: 3.5em;}
-header .logo {
-    margin: 0;
-    padding: 25px 30px;
-    font-weight: bold ;
-    color:rgb(34, 127, 56);
-    font: size 1.6em;
-}
-header .container{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-header{
-    background-color: rgb(235, 235, 235);
-}
-@media (min-width:720px){
-    header{
-        position: fixed;
-        width: 100%;
-    }
-    header .container{
-        flex-direction: row;
-        justify-content: space-between;
-    }}

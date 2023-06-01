@@ -7,8 +7,8 @@
 .form_container {
   width: 30%;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #000;
+  background-color: rgba(50, 52, 68);
+  color: #ffffff;
   border-radius: 15px;
   padding: 1em;
   opacity: 0.8;
@@ -16,7 +16,7 @@
 
 .form_container input[type='submit'] {
   border-radius: 8px;
-  background-color: rgba(37, 180, 86, 0.7);
+  background-color: rgba(28, 138, 66);
   color: #fff;
   border: none;
   min-width: 100px;
@@ -36,7 +36,7 @@
 }
 
 .form_container p a {
-  color: #16479d;
+  color: #376cc7;
   font-weight: bold;
 }
 

@@ -1,26 +1,30 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React from 'react';
 
 /* components */
-import Navbar from './components/layout/Navbar'
-import Footer from './components/layout/Footer'
-import Message from './components/layout/Message'
-import Container from './components/layout/Container'
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import Message from './components/layout/Message';
+import Container from './components/layout/Container';
 
 /* pages */
-import Carosel from './components/pages/Carosel/Carosel'
-import Home from './components/pages/Home'
-import Login from './components/pages/Auth/Login'
-import Register from './components/pages/Auth/Register'
-import Profile from './components/pages/User/Profile'
-import AddVacant from './components/pages/Vacant/AddVacant'
-import MyVacants from './components/pages/Vacant/MyVacants'
-import EditVacant from './components/pages/Vacant/EditVacant'
-import VacantDetails from './components/pages/Vacant/VacantDetails'
-import MyApplications from './components/pages/Vacant/MyApplications'
+import Home from './components/pages/Home';
+import Login from './components/pages/Auth/Login';
+import Register from './components/pages/Auth/Register';
+import Profile from './components/pages/User/Profile';
+import AddVacant from './components/pages/Vacant/AddVacant';
+import MyVacants from './components/pages/Vacant/MyVacants';
+import EditVacant from './components/pages/Vacant/EditVacant';
+import VacantDetails from './components/pages/Vacant/VacantDetails';
+import MyApplications from './components/pages/Vacant/MyApplications';
+import CaroselNoticias from './components/pages/Carosel/CaroselNoticias';
+
 
 /* contexts */
-import { UserProvider } from './context/UserContext'
+import { UserProvider } from './context/UserContext';
+
+
+
 function App() {
   return (
     <Router>
@@ -29,8 +33,8 @@ function App() {
         <Message />
         <Container>
           <Switch>
-          <Route path="/Carosel/Carosel">
-              <Carosel />
+            <Route path="/Carosel/CaroselNoticias.jsx">
+              <CaroselNoticias/>
             </Route>
             <Route path="/login">
               <Login />
@@ -64,7 +68,7 @@ function App() {
         <Footer />
       </UserProvider>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
