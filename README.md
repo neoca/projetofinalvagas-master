@@ -5,7 +5,7 @@ O servidor Express e Mongo DB são executados utilizando o NodeJS instalados no 
 
 
 
-## Iniciando o Projeto
+## Inicializando o Projeto
 
 
 - ``` npm install na pasta Back-end```
