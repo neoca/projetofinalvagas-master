@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+body {
+  background-image: url(./assets/img/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+h1 {
+  color: #e29797;
+  margin-bottom: 1em;
+  font-size: 2.1em;
+}
+
+.bold {
+  font-weight: bold;
+  color: #16479d;
+}
+
+p {
+  color:white
+}

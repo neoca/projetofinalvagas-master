@@ -1,0 +1,122 @@
+/* carousel.module.css */
+.container {
+    width: 700px;
+    height: 400px;
+    perspective: 2000px;
+  }
+  
+  .cards {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: rotate 30s infinite linear;
+  }
+  
+  .card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease;
+    border-radius: 5px;
+  }
+  
+  .card input[type="radio"] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+  }
+  
+  .card label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  
+  .card:hover {
+    transform: translateZ(50px) rotateX(5deg);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card .image .dots {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+  
+  .card .image .dots div {
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .card .infos {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .card .infos .name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .card .infos .lorem {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .card .btn-contact {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .card .socials {
+    margin-top: 16px;
+  }
+  
+  .card .socials a {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  .card .socials img {
+    width: 24px;
+    height: 24px;
+  }
+  
