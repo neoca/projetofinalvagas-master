@@ -30,7 +30,7 @@ O servidor Express e Mongo DB são executados utilizando o NodeJS instalados no 
 
 - Esmirna Amneris Marino Aragón
 
-- Neomar Alexis Carache Iglesias
+- Neomar Alexis Carache Iglesias -https://github.com/neoca
 
 - Maria varuska Aranguren
 
